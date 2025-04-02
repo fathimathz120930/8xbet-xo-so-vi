@@ -19,8 +19,8 @@ function App() {
   return (
     <div className={`min-h-screen ${isDark ? 'dark' : ''}`}>
       <header className="fixed top-0 left-0 right-0 p-4 flex justify-between items-center bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm shadow-md z-40">
-        <div className="flex items-center gap-3">
-          <img src="https://8xbet-xo-so-vi.vercel.app/8xbet_light_logo.svg" alt=" Logo" className="w-10 h-10" />
+        <div className="flex items-center gap-1">
+          <img src="https://8xbet-xo-so-vi.vercel.app/8xbet_light_ logo.svg" alt=" Logo" className="w-30 h-30" />
           
           
         </div>
@@ -213,6 +213,20 @@ Chúc anh em may mắn và có những trải nghiệm thú vị cùng  <strong>
          
         </div>
       </main>
+
+<section>
+<div>
+  <footer className="fixed px-6 py-4 bottom-0 left-0 right-0 p-4 flex justify-between items-center bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm shadow-md z-40 w-full">
+  <div className="flex items-center gap-5">
+    <img src="https://8xbet-xo-so-vi.vercel.app/8xbet_light_ logo.svg" alt="Logo" className="w-30 h-30" />
+  </div>
+  <div className="ml-auto text-sm text-gray-600 dark:text-gray-300">
+    © 2025 <a href="https://8xbet-xo-so-vi.vercel.app/" className="text-blue-600 hover:underline">8xbet</a>. All rights reserved.
+  </div>
+</footer>
+  </div>
+</section>
+
     </div>
   );
 }
